@@ -20,7 +20,7 @@ body.invitation-locked{overflow:hidden}
 .letter-inner p{font-size:7px;letter-spacing:2px;color:#9a754b;margin:12px 0 7px}
 .letter-inner h2{font:36px 'Great Vibes',cursive;margin:0;color:#742238}
 .letter-inner h2 span{color:#b18a4e}
-.letter-mini-rule{width:65px;height:1px;background:#c6a66f;margin:10px}
+.letter-mini-rule{width:65px;height:1px;background:#c6a66f;margin:10px} 
 .letter-inner small{font-size:8px;letter-spacing:2px;color:#9a754b}
 .envelope-pocket{position:absolute;z-index:4;inset:18px 0 0;background:linear-gradient(145deg,#f6ead8 0 49.5%,#e7d2b5 50%);clip-path:polygon(0 0,50% 56%,100% 0,100% 100%,0 100%);border-bottom:1px solid #c6a66f}
 .envelope-pocket:after{content:"";position:absolute;inset:0;background:linear-gradient(35deg,transparent 49.5%,rgba(181,142,82,.42) 50%,transparent 50.5%),linear-gradient(-35deg,transparent 49.5%,rgba(181,142,82,.42) 50%,transparent 50.5%)}
