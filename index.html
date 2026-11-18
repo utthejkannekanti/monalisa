@@ -11,7 +11,36 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body class="invitation-locked">
+
+  <div class="opening-screen" id="openingScreen" aria-label="Open wedding invitation">
+    <div class="opening-glow"></div>
+    <div class="opening-caption">A WEDDING INVITATION</div>
+    <div class="envelope-scene" id="envelopeScene">
+      <div class="envelope-back"></div>
+      <div class="letter-preview">
+        <div class="letter-inner">
+          <div class="letter-mini-ornament">✦ ❦ ✦</div>
+          <p>TO CELEBRATE LOVE</p>
+          <h2>Monalisa <span>&</span> Sumit</h2>
+          <div class="letter-mini-rule"></div>
+          <small>25 · 11 · 2026</small>
+        </div>
+      </div>
+      <div class="envelope-pocket"></div>
+      <div class="envelope-flap"></div>
+      <div class="envelope-lace lace-left"></div>
+      <div class="envelope-lace lace-right"></div>
+      <button class="wax-seal" id="openInvitation" aria-label="Open invitation">
+        <span>M</span><i>&</i><span>S</span>
+      </button>
+      <div class="envelope-shadow"></div>
+    </div>
+    <p class="opening-hint" id="openingHint">TAP THE SEAL TO OPEN</p>
+    <p class="opening-subhint">A little note, sealed with love</p>
+    <button class="skip-opening" id="skipOpening" type="button">Skip intro</button>
+  </div>
+
   <div class="paper-texture"></div>
   <header class="topbar">
     <a class="monogram" href="#home">M <span>&</span> S</a>

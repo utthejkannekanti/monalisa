@@ -43,3 +43,21 @@ document.getElementById("rsvpForm")?.addEventListener("submit", event => {
   }
   window.open(`https://wa.me/${RSVP_WHATSAPP_NUMBER}?text=${message}`, "_blank", "noopener");
 });
+
+
+// Invitation opening interaction
+const openingScreen = document.getElementById("openingScreen");
+const openInvitationButton = document.getElementById("openInvitation");
+const skipOpeningButton = document.getElementById("skipOpening");
+
+function revealInvitation() {
+  if (!openingScreen || openingScreen.classList.contains("is-opening")) return;
+  openingScreen.classList.add("is-opening");
+  document.body.classList.remove("invitation-locked");
+  window.setTimeout(() => {
+    openingScreen.classList.add("is-gone");
+    window.setTimeout(() => openingScreen.remove(), 1100);
+  }, 1450);
+}
+openInvitationButton?.addEventListener("click", revealInvitation);
+skipOpeningButton?.addEventListener("click", revealInvitation);

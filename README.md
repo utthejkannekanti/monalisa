@@ -20,3 +20,7 @@ For a guest list dashboard or automatic RSVP storage, connect a backend/database
 - `index.html` — page content
 - `styles.css` — responsive styling and animations
 - `script.js` — countdown, mobile navigation and WhatsApp RSVP
+
+
+## Interactive opening animation
+The invitation now starts with an animated lace-style envelope. Guests tap the wax seal to open the flap and slide the letter out, or choose Skip intro. The effect respects reduced-motion accessibility settings.
